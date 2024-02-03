@@ -1,0 +1,15 @@
+server:
+  port: 8070
+
+spring:
+  data:
+    # org.springframework.boot.autoconfigure.data.redis.RedisProperties
+    # 单节点模式
+    # https://github.com/redisson/redisson/tree/master/redisson-spring-boot-starter#spring-boot-starter
+    redis:
+      database: 5
+      host: 127.0.0.1
+      port: 6379
+      password: Mn+O2=Moon
+      timeout: 3000000
+      connectTimeout: 10000
